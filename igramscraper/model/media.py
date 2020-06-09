@@ -117,7 +117,7 @@ class Media(InitializerModel):
             self.short_code = value
             self.link = endpoints.get_media_page_link(self.short_code)
 
-        elif prop == 'comments':
+        elif any([prop == i for i in ['edge_media_to_comment', 'edge_media_to_parent_comment', 'edge_media_preview_comment']]):
             self.comments_count = arr[prop]['count']
         elif prop == 'likes':
             self.likes_count = arr[prop]['count']

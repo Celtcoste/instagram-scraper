@@ -1,4 +1,4 @@
-# instagram_scraper
+# Fork of instagram_scraper
 <img src="https://raw.githubusercontent.com/realsirjoe/designs/master/flat_illustration.png" align="right">
 This is a minimalistic Instagram scraper written in Python.
 <br /><br />
